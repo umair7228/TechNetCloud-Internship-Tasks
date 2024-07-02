@@ -1,0 +1,112 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #1c1e21;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-right: 200px;
+}
+
+.left-section {
+    flex: 1;
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+.left-section h1 {
+    color: #1877f2;
+    font-size: 88px;
+}
+
+.left-section p {
+    font-size: 24px;
+}
+
+.right-section {
+    flex: 1;
+    max-width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-form input {
+    width: 95%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #dddfe2;
+    border-radius: 4px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    background-color: #1877f2;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-form a {
+    display: block;
+    margin: 10px 0;
+    color: #1877f2;
+    text-decoration: none;
+}
+
+#forgotPassword {
+    margin-bottom: 20px;
+}
+
+#loginButton:hover, #createAccountButton:hover {
+    background-color: #166fe5;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-section {
+        flex: 1;
+        text-align: center;
+        padding-bottom: 200px;
+        margin-left: 150px;
+    }
+
+    .right-section {
+        position: absolute;
+        bottom: 90px;
+        left: 50px;
+        width: 300px;
+        padding: 10px;
+      }
+
+    .right-section {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: none;
+        box-shadow: none;
+        border-radius: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
