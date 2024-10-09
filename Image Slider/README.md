@@ -1,5 +1,5 @@
 # Image Slider
-![Screenshot 2024-06-28 153036](https://github.com/umair7228/TechNetCloud-Internship-Tasks/assets/154393500/a728e272-33e7-446d-8238-9e4c6383995f)
+![Screenshot 2024-06-28 153036](https://github.com/user-attachments/assets/0e506d0f-396c-483f-be1d-7cdd8d243c1d)
 
 This project is an **Image Slider** created as part of the TechNetCloud Internship Tasks. It enables users to navigate through a set of images with functional controls.
 
